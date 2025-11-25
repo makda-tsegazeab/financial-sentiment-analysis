@@ -1,7 +1,31 @@
-pandas>=2.0.0
-numpy>=1.24.0
+# Core data analysis - use newer compatible versions
+pandas>=2.1.0
+numpy>=1.25.0
 matplotlib>=3.7.0
 seaborn>=0.12.0
+plotly>=5.15.0
+scipy>=1.11.0
+
+# Jupyter and development
 jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipykernel>=6.25.0
 black>=23.0.0
-pytest>=7.0.0
+pytest>=7.4.0
+
+# Text processing and NLP
+nltk>=3.8.0
+textblob>=0.17.0
+vaderSentiment>=3.3.0
+wordcloud>=1.9.0
+spacy>=3.7.0
+
+# Financial analysis
+yfinance>=0.2.18
+# ta-lib might have issues - we'll use alternatives
+ta>=0.10.0  # Alternative to TA-Lib
+
+# Utilities
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+tqdm>=4.65.0
