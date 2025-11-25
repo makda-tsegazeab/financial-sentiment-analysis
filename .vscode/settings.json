@@ -1,0 +1,8 @@
+{
+    "python.defaultInterpreterPath": "./venv",
+    "python.analysis.extraPaths": ["./src"],
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    }
+}
